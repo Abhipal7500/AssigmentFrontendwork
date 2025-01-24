@@ -1,0 +1,60 @@
+/* Styles for the ClickGame component */
+.click-game-container {
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  .click-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .click-button:hover {
+    background-color: #e65c50;
+    transform: scale(1.05);
+  }
+  
+  .message {
+    color: #f8ffe5;
+    font-size: 18px;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
