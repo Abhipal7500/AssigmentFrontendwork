@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registerUser } from "../services/api";
-import "./EmailForm.css"; // Import the CSS file
+import "./EmailForm.css";
 
 const EmailForm = ({ setUserEmail }) => {
   const [email, setEmail] = useState("");

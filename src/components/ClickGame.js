@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { clickButton, fetchUserDetails } from "../services/api";
-import "./ClickGame.css"; // Import the CSS file
+import "./ClickGame.css"; 
 
 const ClickGame = ({ userEmail }) => {
   const [totalPoints, setTotalPoints] = useState(0);
   const [prizesWon, setPrizesWon] = useState(0);
   const [message, setMessage] = useState("");
 
-  // Fetch user data on component load
+
   useEffect(() => {
     const fetchData = async () => {
       try {
